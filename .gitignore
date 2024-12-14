@@ -1,0 +1,62 @@
+
+# Node.js dependencies for both server and client
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+server/.env
+client/.env
+
+# Logs
+server/logs/
+client/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build outputs
+server/dist/
+client/dist/
+server/build/
+client/build/
+
+# Temporary files
+server/*.tmp
+client/*.tmp
+*.temp
+
+# Coverage directories
+server/coverage/
+client/coverage/
+
+# Miscellaneous
+*.bak
+*.pid
+*.seed
+*.sqlite
+
+# Compiled files
+server/*.out
+client/*.out
+
+# Optional npm cache directory
+.npm/
+.yarn/
+
+# ESLint cache
+server/.eslintcache
+client/.eslintcache
+
+# TypeScript build outputs
+server/*.tsbuildinfo
+client/*.tsbuildinfo
